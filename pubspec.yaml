@@ -1,0 +1,84 @@
+name: gmarket
+version: 1.2.1+1
+environment:
+  sdk: '>=2.12.0 <3.17.0'
+
+dependencies: 
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  http: ^1.1.0
+  html: ^0.15.4
+  badges: ^3.1.2
+  cupertino_icons: ^1.0.6
+  flutter_spinkit: ^5.2.0
+  simple_animations: ^5.0.2
+  rxdart: ^0.27.7
+  audioplayers: ^5.2.1
+  animated_text_kit: ^4.2.2
+  flame: ^1.10.1
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_launcher_icons: ^0.13.1
+  flutter_test: 
+    sdk: flutter
+
+strong-mode: 
+  implicit-casts: false
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/locales/
+    - assets/fruit/
+    - assets/images/
+    - assets/images/background/
+    - assets/images/layer/
+    - assets/images/menu/
+    - assets/images/other/
+    - assets/images/people/
+    - assets/images/avatar/
+    - assets/images/avatar/rabit1/
+    - assets/images/avatar/dog2/
+    - assets/images/avatar/bird1/
+    - assets/images/player/
+    - assets/images/player/bird1/
+    - assets/images/player/bird2/
+    - assets/images/player/cat1/
+    - assets/images/player/rabit1/
+    - assets/images/player/runner1/
+    - assets/images/player/runner2/
+    - assets/images/special/
+    - assets/images/special/Boom/
+    - assets/images/special/Rocket/
+    - assets/images/special/Plane/
+    - assets/images/special/Fullball/
+    - assets/images/tile/
+    - assets/images/tile/static/
+    - assets/images/tile/static/gem/
+    - assets/images/tile/static/other/
+    - assets/images/tile/animate/
+    - assets/images/tile/animate/obstacle/
+    - assets/images/tile/animate/gem/
+    - assets/images/tile/animate/gem/GBox/
+    - assets/images/tile/animate/gem/GCircle/
+    - assets/images/tile/animate/gem/GHeart/
+    - assets/images/tile/animate/gem/GLeg/
+    - assets/images/tile/animate/gem/GPoly/
+    - assets/images/tile/animate/gem/GSnow/
+    - assets/images/tile/animate/gem/GTri/
+    - assets/audio/
+    - assets/audio/song/
+    - assets/audio/sfx/
+    - assets/audio/sound/
+  uses-material-design: true
+
+flutter_icons: 
+  image_path_ios: assets/icon/petleaguedemo.png
+  image_path_android: assets/icon/petleaguedemo.png
+  android: true
+  ios: true
+
